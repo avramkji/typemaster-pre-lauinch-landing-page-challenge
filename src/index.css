@@ -1,0 +1,83 @@
+/* Colors */
+:root {
+  --main-color: #F16718;
+  --main-color-active: #FF9B62;
+  --secondary-color: #162542;
+  --secondary-color-active: #7B8BAD;
+  --background-color-secondary: #E8EFF2;
+  --background-color: #FFFFFF;
+
+  --button-text-color: var(--background-color);
+  --title-text-color: var(--secondary-color);
+  --body-text-color: var(--secondary-color-active);
+}
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
+
+body {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--body-text-color);
+  background: var(--background-color);
+
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 56px;
+  text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
+  color: var(--title-text-color);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
+  color: var(--title-text-color);
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  font-family: 'Barlow', sans-serif;
+  color: var(--title-text-color);
+}
+
+/* Buttons */
+.main-button {
+  background-color: var(--main-color);
+  color: var(--main-color-active);
+  transition: background-color 0.3s ease;
+}
+
+.main-button:hover {
+  background-color: var(--main-color-active);
+}
+
+.secondary-button {
+  background-color: var(--secondary-color-active);
+  color: var(--secondary-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.secondary-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
