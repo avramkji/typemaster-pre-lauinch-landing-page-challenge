@@ -1,0 +1,25 @@
+.App {
+  margin: auto;
+  margin-top: 55px;
+  max-width: 1110px;
+
+  /* media queries */
+  @media (max-width: 768px) {
+    margin: auto;
+    margin-top: 40px;
+    max-width: 689px;
+  }
+  
+  @media (max-width: 375px) {
+    margin: auto;
+    margin-top: 23px;
+    max-width: 327px;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

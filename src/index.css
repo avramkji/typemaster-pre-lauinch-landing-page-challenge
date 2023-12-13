@@ -8,6 +8,14 @@
   --background-color: #FFFFFF;
 
   --button-text-color: var(--background-color);
+  --button-secondary-text-color: var(--secondary-color);
+
+  --button-background-color: var(--main-color);
+  --button-background-hover: var(--main-color-active);
+
+  --button-secondary-background-color: var(--background-color-secondary);
+  --button-secondary-background-hover: var(--secondary-color);
+
   --title-text-color: var(--secondary-color);
   --body-text-color: var(--secondary-color-active);
 }
