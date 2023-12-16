@@ -24,7 +24,7 @@ const TitleAndText = ({ title, text, h1, h2, h3 }: TextAndTitleProps) => {
   const Title = createElement(titleType, {}, title);
 
   return (
-    <div className='Hero-text'>
+    <div className='TitleAndText'>
       {Title}
       <p>
         {text}

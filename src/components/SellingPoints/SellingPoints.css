@@ -1,0 +1,10 @@
+.Selling-Points {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+
+  margin-top: 138px;
+  margin-bottom: 128px;
+}

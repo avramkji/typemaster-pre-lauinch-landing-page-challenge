@@ -4,6 +4,8 @@ import Logo from './components/Logo/Logo';
 import Hero from './components/Hero/Hero';
 import './App.css';
 import Main from './components/Main/Main';
+import SellingPoints from './components/SellingPoints/SellingPoints';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       </header>
       <Hero />
       <Main />
+      <SellingPoints />
+      <Footer />
     </div>
   );
 }

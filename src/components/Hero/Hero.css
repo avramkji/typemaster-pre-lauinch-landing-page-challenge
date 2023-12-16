@@ -12,7 +12,10 @@
 .Hero-section {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+
   
   max-width: 445px;
 }
