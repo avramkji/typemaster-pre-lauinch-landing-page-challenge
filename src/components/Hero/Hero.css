@@ -1,0 +1,56 @@
+.Hero {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 83px;
+  
+  user-select: none;
+}
+
+.Hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  max-width: 445px;
+}
+
+.Hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  h1 {
+    margin-bottom: 24px;
+  }
+
+  p {
+    margin-bottom: 40px;
+    font-weight: 400;
+  }
+}
+
+.Hero-Button-layer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+
+  p {
+    font-weight: 700;
+  }
+}
+
+.Hero-image, .Hero-image img {
+  align-self: center;
+
+  max-width: 540px;
+  max-height: 480px;
+  object-fit: cover;
+
+  border-radius: 15px;
+}

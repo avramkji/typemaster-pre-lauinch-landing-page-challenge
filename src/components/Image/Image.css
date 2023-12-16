@@ -1,0 +1,20 @@
+.Image {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.Image-Large {
+  max-width: 540px;
+  max-height: 480px;
+}
+
+
+/* .Image img {
+  align-self: center;
+
+  max-width: 540px;
+  max-height: 480px;
+  object-fit: cover;
+
+  border-radius: 15px;
+} */
