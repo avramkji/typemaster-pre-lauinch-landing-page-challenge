@@ -6,4 +6,9 @@
 
   margin-top: 30px;
   user-select: none;
+  margin-bottom: 30px;
+
+  gap: 40px;
+
+  /* background: rgba(241, 104, 24, 0.8); */
 }

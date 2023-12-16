@@ -1,20 +1,37 @@
-.Image {
+.Image-Background {
+  background-color: var(--main-color);
+}
+
+.Image img {
   object-fit: cover;
   border-radius: 15px;
 }
 
-.Image-Large {
+.Image-Large img {
   max-width: 540px;
   max-height: 480px;
 }
 
-
-/* .Image img {
-  align-self: center;
-
-  max-width: 540px;
+.Image-Medium img {
+  max-width: 445px;
   max-height: 480px;
-  object-fit: cover;
+}
 
+.Image-Small img {
+  max-width: 255px;
+  max-height: 480px;
+}
+
+.Image-Overlay {
+  /* This isn't ready, this will probably never be used */
+  /* I'll find another way. This is frustrating! */
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 99;
+  background-color: var(--main-color);
   border-radius: 15px;
-} */
+}
