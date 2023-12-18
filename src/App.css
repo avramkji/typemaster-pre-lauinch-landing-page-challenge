@@ -1,12 +1,12 @@
 .App {
   margin: auto;
-  margin-top: 55px;
   max-width: 1110px;
+  padding: 1vw;
 
   /* media queries */
   @media (max-width: 768px) {
     margin: auto;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     max-width: 689px;
   }
   

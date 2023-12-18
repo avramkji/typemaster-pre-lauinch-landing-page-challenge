@@ -18,6 +18,8 @@
 
   --title-text-color: var(--secondary-color);
   --body-text-color: var(--secondary-color-active);
+
+  overflow-x: hidden;
 }
 
 /* Fonts */

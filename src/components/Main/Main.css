@@ -10,5 +10,32 @@
 
   gap: 40px;
 
+  @media screen and (max-width: 1024px) {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   /* background: rgba(241, 104, 24, 0.8); */
+}
+
+.Main-image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.Main > .TitleAndText {
+  @media screen and (max-width: 1024px) {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+
+    p {
+      max-width: 47ch;
+    }
+  }
 }

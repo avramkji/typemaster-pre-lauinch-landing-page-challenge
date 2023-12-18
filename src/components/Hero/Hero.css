@@ -7,6 +7,11 @@
   margin-top: 83px;
   
   user-select: none;
+  .Main-image-container {
+    @media screen and (max-width: 1024px) {
+      
+    }
+  }
 }
 
 .Hero-section {

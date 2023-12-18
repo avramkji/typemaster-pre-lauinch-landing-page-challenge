@@ -1,6 +1,7 @@
 import './Image.css';
 
 interface ImageProps {
+  className?: string;
   src: string;
   alt: string;
   imageSize?: "large" | "medium" | "small";

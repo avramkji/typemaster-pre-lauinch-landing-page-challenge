@@ -26,6 +26,7 @@ const Hero = () => {
         </div>
       </div>
       <Image
+        className='Hero-image'
         src={HeroImage}
         alt='hero keyboard'
         imageSize='large'

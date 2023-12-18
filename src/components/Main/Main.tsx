@@ -7,17 +7,19 @@ import ImageGlassAndKeyboard from '../../assets/desktop/image-glass-and-keyboard
 const Main = () => {
   return (
     <div className="Main">
-      <Image
-        src={PhoneAndKeyboardImage}
-        alt='phone and keyboard'
-        imageSize='small'
-        overlayColor
-      />
-      <Image
-        src={ImageGlassAndKeyboard}
-        alt='glass and keyboard'
-        imageSize='medium'
-      />
+      <div className='Main-image-container'>
+        <Image
+          src={PhoneAndKeyboardImage}
+          alt='phone and keyboard'
+          imageSize='small'
+          overlayColor
+        />
+        <Image
+          src={ImageGlassAndKeyboard}
+          alt='glass and keyboard'
+          imageSize='medium'
+        />
+      </div>
       <TitleAndText 
         h2
         title='Mechanical wireless keyboard'
