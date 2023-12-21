@@ -7,10 +7,13 @@
   margin-top: 83px;
   
   user-select: none;
-  .Main-image-container {
-    @media screen and (max-width: 1024px) {
-      
-    }
+  max-width: 99vw;
+
+  @media (max-width: 1024px) {
+    /* justify-content: center; */
+    gap: 40px;
+    margin-left: 7px;
+    margin-top: 40px;
   }
 }
 
@@ -23,6 +26,12 @@
 
   
   max-width: 445px;
+}
+
+.Hero img {
+  @media (max-width: 1024px) {
+    margin-left: 2vw;
+  }
 }
 
 .Hero-text {

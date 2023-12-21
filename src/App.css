@@ -2,18 +2,22 @@
   margin: auto;
   max-width: 1110px;
   padding: 1vw;
+  overflow-x: hidden;
 
   /* media queries */
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     margin: auto;
     /* margin-top: 40px; */
-    max-width: 689px;
+    /* max-width: 689px; */
+    /* margin: 0;
+    padding: 0; */
   }
   
   @media (max-width: 375px) {
-    margin: auto;
+    /* margin: auto; */
     margin-top: 23px;
-    max-width: 327px;
+    /* max-width: 327px; */
+
   }
 }
 
@@ -22,4 +26,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  @media (max-width: 1024px) {
+    margin: 7px;
+  }
 }

@@ -10,6 +10,12 @@
 .Image-Large img {
   max-width: 540px;
   max-height: 480px;
+
+  /* media queries */
+  @media (max-width: 1024px) {
+    max-width: 425px;
+    max-height: 478px;
+  }
 }
 
 .Image-Medium img {
